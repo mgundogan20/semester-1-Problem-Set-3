@@ -1,0 +1,74 @@
+{
+  "tests": [
+    {
+      "name": "Calculate Score",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_ps3.py::test_get_word_score",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Update Hand",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_ps3.py::test_update_hand",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Is Valid Word",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_ps3.py::test_is_valid_word",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 20
+    },
+    {
+      "name": "Wildcards",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_ps3.py::test_wildcard",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 20
+    },
+    {
+      "name": "Play Hand",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_ps3.py::test_play_hand",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 20
+    },
+    {
+      "name": "Substitution",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_ps3.py::test_substitute_hand",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "Play Game",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_ps3.py::test_play_game",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 15
+    }
+  ]
+}
